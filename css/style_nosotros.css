@@ -1,0 +1,199 @@
+.nav-active {
+    background-color: #E7A436;
+    border-radius: 20px 0px;
+    width: 30% !important;
+    text-align: center;
+    border-bottom: 1px solid #E7A436;
+}
+
+.nav-none{
+    border-bottom: none;
+}
+
+.shopping-basket{
+    display: none;
+}
+
+.container_two_nosotros_two{
+    margin: 0em 11em;
+}
+
+.container_two.container_nosotros{
+    margin-top: -3em;
+}
+.container_two_nosotros{
+  background-image: url(../img/fondo_malsentada2x.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: -20em;
+  z-index: 2;
+}
+
+.container_two_nosotros_one {
+    display: flex;
+    justify-content: center;
+    padding: 2em 2em 0em 2em;
+}
+
+
+.container_two_nosotros_one img{
+    width: 20%;
+}
+
+audio {
+    width: 300px;
+   
+}
+audio::-webkit-media-controls{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+audio::-webkit-media-controls-panel{
+    background-color: #E7A436;
+}
+
+audio:-webkit-full-page-media{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+audio::-webkit-media-controls-mute-button{
+  /* sonido*/
+    display: none;
+}
+
+
+audio::-webkit-media-controls-play-button{
+    display: flex;
+    width: 300px;
+
+    padding: 1em;
+    color: white;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+  
+}
+
+audio::-webkit-media-controls-timeline {
+    -webkit-appearance: media-slider;
+    display: flex;
+    padding: 0;
+    background-color: white;
+    min-width: 85%;
+    border: initial;
+    color: white;
+}
+
+
+
+.container_two_nosotros_two_four img{
+    width: 40%;
+
+}
+
+.container_two_nosotros_two_four{
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 968px){
+
+        
+    .container_two_nosotros_two{
+        margin: 0em 10em;
+        font-size: 14px !important;
+    }
+
+    .container_two_nosotros_one {
+        display: flex;
+        justify-content: center;
+        padding: 2em 2em 0em 2em;
+    }
+
+    .container_two_nosotros_one h1{
+        font-size: 4.5em !important;
+    }
+
+    .container_two_nosotros_one h2{
+        font-size: 3.5em !important;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 768px){
+    .container_two_nosotros{
+        font-size: 0.8em !important;
+        margin-top: -10em;
+    }
+
+    .container_two_nosotros_one {
+        padding: 2em 2em 0em 2em;
+    }
+
+    .container_two_nosotros_two {
+        margin: 0em 8em;
+        padding: 0em 2em 2em 2em;
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .container_two_nosotros{
+        font-size: 0.8em !important;
+
+    }
+
+    .container_two_nosotros_two {
+        margin: 0em 4em;
+        padding: 0em 3em 2em 3em;
+        font-size: 14px !important;
+    }
+
+    .container_two_nosotros_one {
+        padding: 2em 2em 2em 4em;
+    }
+
+    .container_two_nosotros_one h1{
+        font-size: 4.5em;
+    }
+    .container_two_nosotros_one h2{
+        font-size: 3.5em;
+    }
+}
+
+
+@media screen and (max-width: 455px){
+
+    .container_two_nosotros {
+        margin-top: -10em;
+    }
+
+    .container_two_nosotros_one {
+        padding: 2em 0em 0em 0em;
+    }
+
+    .container_two_nosotros_one h1{
+        font-size: 3em !important;
+    }
+
+    .container_two_nosotros_one h2{
+        font-size: 2.5em !important;
+    }
+
+    .container_two_nosotros_two {
+        margin: 0em 2em;
+        padding: 0em 3em 2em;
+        font-size: 1em !important;
+    }
+}
