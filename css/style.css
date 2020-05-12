@@ -761,14 +761,15 @@ nav .shopping-basket .btn_shopping_basket img{
   order: 4;
 }
 
-.footer_one_calendar table td{
-  border-bottom: 1px dotted #4B4B4B;
-  padding: 0.2em;
+.footer_one_calendar .footer-table .footer-table-td{
+  border-bottom: 1px dotted #4B4B4B !important;
+  padding: 0.2em !important;
 }
 
-.footer_one_reds{
-  order: 5;
+.footer_one_calendar .footer-table .footer-table-td{
+  background-image:none !important;
 }
+
 
 .footer_one_reds .footer_one_reds_icon{
   display: flex;
