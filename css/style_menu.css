@@ -1,3 +1,35 @@
+@font-face{
+  font-family: ADayWithOutSun;
+  src: url(../fuentes/ADAYWITHOUTSUN.otf)
+}
+
+.font-dw{
+  font-family: ADayWithOutSun;
+}
+
+@font-face{
+  font-family: DinCondensed;
+  src: url(../fuentes/DINCondensed.woff)
+}
+
+.font-dc{
+  font-family: DinCondensed;
+}
+
+@font-face{
+  font-family: HelveticaNeue;
+  src: url(../fuentes/HelveticaNeueMedium.woff)
+}
+.font-hn{
+  font-family:  HelveticaNeue;
+}
+
+@font-face{
+  font-family: yellosun;
+  src: url(../fuentes/yellosun.woff)
+}
+
+
 .nav-active {
   background-color: #E7A436;
   border-radius: 20px 0px;
@@ -76,7 +108,7 @@
   }
 
   .container_two_menu .container_two_menu_one{
-    background-image: url(../img/fondo_menu_carta.png);
+    background-color: #f5f5f5;
     border-radius: 1em;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -90,6 +122,38 @@
 
   .container_two_menu_items h1{
     margin: 1em 0em 0em 0em;
+
+  }
+
+  .container_two_menu_items .font-brow-title{
+    font-size: 3em;
+    font-weight: 400 !important;
+    font-family: ADayWithOutSun;
+    color: #6C200F !important;
+    
+  }
+
+  .container_two_menu_items .font-pink-title{
+    font-size: 3em;
+    font-weight: 400 !important;
+    font-family: ADayWithOutSun;
+    color: #CF0C64 !important;
+    
+  }
+
+  .container_two_menu_items .font-yellow-title{
+    font-size: 3em;
+    font-weight: 400 !important;
+    font-family: ADayWithOutSun;
+    color: #EA8501 !important;
+  }
+  
+  .container_two_menu_items .font-orange-title{
+    font-size: 3em;
+    font-weight: 400 !important;
+    font-family: ADayWithOutSun;
+    color: #C83B26!important;
+    
   }
 
   .container_two_menu_items_table{
@@ -110,7 +174,18 @@
   margin: 0 0 2em;
   padding: 0;
 }
-.menu_table  li {
+.menu_table_jugos,
+.menu_table_sodas{
+  width: 45%;
+  list-style: none;
+  margin: 0 0 2em;
+  padding: 0;
+}
+
+
+.menu_table  li,
+.menu_table_jugos  li,
+.menu_table_sodas  li{
   clear: both;
   margin: 0;
   padding: 0 0 1.8em 0;
@@ -118,25 +193,93 @@
   position: relative;
   border-bottom: dotted 2px #999;
 }
-.menu_table  strong {
-  background-color: #f5f5f5 !important;
+.menu_table  strong,
+.menu_table_jugos strong,
+.menu_table_sodas strong{
   padding: 0 10px 0 0;
   position: absolute;
   bottom: -.3em;
   left: 0;
 }
+/*-------COMIDA-------------*/
+.menu_table  strong.font-brow-li,
+.menu_table  span.font-brow-span,
+.menu_table_jugos  strong.font-brow-li,
+.menu_table_jugos  span.font-brow-span,
+.menu_table_sodas  strong.font-brow-li,
+.menu_table_sodas  span.font-brow-span{
+  font-size: 1.125em !important;
+  font-weight: 400 !important;
+  font-family: 'Source Sans Pro' !important;
+  color: #6C200F !important;
+  background-color: #f5f5f5;
+}
+
+.menu_table_jugos  strong.font-brow-li-subtitle,
+.menu_table_sodas  strong.font-brow-li-subtitle{
+  font-size: 3em;
+    font-weight: 400 !important;
+    font-family: ADayWithOutSun;
+    color: #6C200F !important;
+    background-color: #f5f5f5;
+}
+
+
+.menu_table .font-black-description{
+  font-size: 1em !important;
+  color: #0B0B0B !important;
+  font-family: 'Source Sans Pro' !important;
+  font-weight: 200;
+
+}
+
+.menu_table  strong.font-pink-li,
+.menu_table  span.font-pink-span{
+  font-size: 1.125em !important;
+  font-weight: 400 !important;
+  font-family: 'Source Sans Pro' !important;
+  color: #CF0C64;
+  background-color: #f5f5f5;
+}
+
+.menu_table  strong.font-yellow-li,
+.menu_table  span.font-yellow-span{
+  font-size: 1.125em !important;
+  font-weight: 400 !important;
+  font-family: 'Source Sans Pro' !important;
+  color: #EA8501 !important;
+  background-color: #f5f5f5;
+}
+
+.menu_table  strong.font-orange-li,
+.menu_table  span.font-orange-span{
+  font-size: 1.125em !important;
+  font-weight: 400 !important;
+  font-family: 'Source Sans Pro' !important;
+  color: #C83B26!important;
+  background-color: #f5f5f5;
+}
 
 .menu_table strong.text-table{
-  background-color: #f5f5f5 !important;
-  color: #f5f5f5 !important;
-  padding: 0 14em 0 0;
+  color: #f5f5f5!important;
+  background-color: #f5f5f5;
+  padding: 0 18em 0 0;
+  position: absolute;
+  bottom: -.3em;
+  left: 0;
+}
+.menu_table strong.text-table-one{
+  color: #f7f5f5!important;
+  background-color: #f5f5f5;
+  padding: 0 18em 0 0;
   position: absolute;
   bottom: -.3em;
   left: 0;
 }
 
-.menu_table  span{
-  background-color: #f5f5f5 !important;
+.menu_table  span,
+.menu_table_jugos  span,
+.menu_table_sodas  span{
   padding: 0 0 0 5px;
   position: absolute;
   bottom: -.2em;
@@ -149,29 +292,31 @@
 
 .header-jugos{
   margin-top: 4em !important;
+  margin-bottom: 2em !important;
 }
 
-.span-jugo{
-
+.menu_table_jugos .container-jugos{
+  display: flex;
+  height: 250px;
+  flex-flow: column wrap;
 }
-.menu_table li.span-jugo-li {
+
+.menu_table_jugos div.span-jugo-li,
+.menu_table_sodas div.span-jugo-li  {
   clear: both;
   margin: 0;
-  padding: 0 0 1.8em 0;
-  margin-top: 1em;
+  padding: 0 0 1.5em 0;
+  width: 50%;
   position: relative;
   border-bottom: none !important;
+  font-size: 1.125em !important;
+  font-weight: 400 !important;
+  font-family: 'Source Sans Pro' !important;
+  color: #6C200F !important;
+  background-color: #f5f5f5;
 }
 
-span.span-jugo{
-  background-color: #f5f5f5 !important;
-  text-align: center;
-  padding: 0 0 0 5px;
-  position: absolute;
-  bottom: -.2em;
-  left: 35%;
 
-}
 
 .menu_table.aperitivos {
   width: 100%;
@@ -198,7 +343,7 @@ span.left-number-three{
 .menu_table strong.text-table-bebidas {
   background-color: #f5f5f5 !important;
   color: #f5f5f5 !important;
-  padding: 0 21em 0 0;
+  padding: 0 30em 0 0;
   position: absolute;
   bottom: -.3em;
   left: 0;
@@ -259,10 +404,10 @@ span.left-number-three{
   }
 
 
-  .container_two_menu_items_table {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+.container_two_menu_items_table {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .menu_table {
@@ -286,7 +431,9 @@ span.left-number-three{
   font-size: 2.5em !important;
 }
 
-.menu_table strong {
+.menu_table strong,
+.menu_table_jugos strong,
+.menu_table_sodas strong {
   background-color: #f5f5f5 !important;
   padding: 0 10px 0 0;
   position: absolute;
@@ -295,7 +442,9 @@ span.left-number-three{
   left: 0;
 }
 
-.menu_table span {
+.menu_table span,
+.menu_table_jugos span,
+.menu_table_sodas span {
   background-color: #f5f5f5 !important;
   padding: 0 0 0 5px;
   position: absolute;
@@ -337,6 +486,24 @@ span.left-number-three{
 
   .container_two_menu_one_items li a {
     font-size: 2em !important;
+  }
+
+
+  .menu_table strong.text-table,
+  .menu_table strong.text-table-one{
+    padding: 0 2em 0 0;
+  }
+  .menu_table strong.text-table-bebidas {
+    background-color: #f5f5f5 !important;
+    color: #f5f5f5 !important;
+    padding: 0 5em 0 0;
+    position: absolute;
+    bottom: -.3em;
+    left: 0;
+  }
+
+  .menu_table strong.text-table-bebidas {
+    padding: 0px;
   }
   
 }

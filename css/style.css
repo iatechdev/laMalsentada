@@ -170,6 +170,11 @@
   color: #C83B26!important;
 }
 
+
+.font-red-menu{
+  color: #D35034!important;
+}
+
 .letter-spacing-menu{
   letter-spacing: 0.02em;
 }
@@ -255,6 +260,21 @@ nav .shopping-basket button{
 nav .shopping-basket .btn_shopping_basket img{
   height: 30px;
 }
+
+nav .shopping-basket span{
+  position: absolute;
+  font-family: 'Source Sans Pro' !important;
+  color: #ffff;
+  left: -8px;
+  top: -6px;
+  background-color: #D35034;
+  width: 24px;
+  height: 21px; 
+  border-radius: 11px;
+  text-align: center;
+  z-index: 3;
+}
+
 
 
 /* ------- CONTAINER ONE ------- */
@@ -726,6 +746,8 @@ nav .shopping-basket .btn_shopping_basket img{
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 1em 2em;
+  position: relative;
+  z-index: 2;
 
 }
 
@@ -1114,6 +1136,8 @@ nav .shopping-basket .btn_shopping_basket img{
 }
 
 .cestadeaji img {
+  position: relative;
+  z-index: 2;
     width: 50%;
 }
 
