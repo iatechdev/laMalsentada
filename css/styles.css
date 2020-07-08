@@ -1,0 +1,437 @@
+/*contactenos*/
+
+.container_one_toro{
+display: block;   
+margin-bottom: 100px;
+}
+
+/*******************************/
+
+.container_two_contactanos{
+ margin-top: 400px;
+  
+}
+.container_two_contactanos h1{
+color:white;
+letter-spacing: 8.88px;
+margin-top: -700px; 
+    
+margin-left: 100px;
+text-shadow: 5px 6px 6px #000000AA;
+opacity: 1;
+font-size: 100px;
+
+}
+@media screen and (min-width: 300px) and (max-width: 479px){
+.container_one_toro{
+display: block;
+margin-bottom: 100px;
+align-content: flex-end;
+}
+.container_two_contactanos h1{
+color:white;
+letter-spacing: 8.88px;
+margin-top: -580px;
+text-shadow: 5px 6px 6px #000000AA;
+opacity: 1;
+font-size: 50px;
+margin-left: 15px;
+margin-bottom: 20px;
+         }
+
+}
+@media screen and (min-width: 479px) and (max-width: 900px){
+.container_one_toro{
+ display: block;         
+margin-bottom: 100px;
+ }
+.container_two_contactanos h1{
+color:white;
+letter-spacing: 8.88px;
+margin-top: -650px;
+align-items: flex-end;
+text-shadow: 5px 6px 6px #000000AA;
+opacity: 1;
+font-size: 80px;
+margin-left: 15px;
+margin-bottom: 20px;
+         }
+
+}
+ 
+/*menú contactenos*/
+.list-contactenos li {
+list-style: none;      
+}
+
+.list-contactenos a {
+text-decoration: none;
+color:white;
+padding: 10px;
+font-size: 60px;
+}
+
+.nav-contactenos ul{
+margin-top:30px;
+display: flex;
+flex-direction: row;
+padding: 10px;
+justify-content: space-between;
+        
+}
+/*mediaquerys menu contactenos*/
+      
+@media screen and (min-width: 320px) and (max-width: 479px){
+      
+.list-contactenos a {
+text-decoration: none;
+color:white;
+padding: 10px;
+font-size: 15px; 
+}
+.nav-contactenos ul{
+flex-direction: row;            
+margin-top:50px;
+              
+}
+.list-contactenos img{
+ width: 10%;
+}
+}
+@media screen and (min-width: 480px) and (max-width: 599px){
+      
+           .list-contactenos a {
+            text-decoration: none;
+            color:white;
+            padding: 10px;
+            font-size: 25px; 
+            }
+            .nav-contactenos ul{
+            flex-direction: row;            
+            margin-top:50px;
+                          
+            }
+            .list-contactenos img{
+             width: 10%;
+            }
+  
+}
+@media screen and (min-width: 600px) and (max-width: 780px){
+        .list-contactenos a {
+            text-decoration: none;
+            color:white;
+            padding: 10px;
+             font-size: 30px;
+           
+ 
+             }
+      
+             .nav-contactenos ul{
+            flex-direction: row;
+            
+            margin-top:50px;
+              
+             }
+
+
+}
+
+@media screen and (min-width: 781px) and (max-width: 1024px){
+
+        .list-contactenos a {
+            text-decoration: none;
+            color:white;
+            padding: 10px;
+             font-size: 30px;
+           
+ 
+             }
+      
+             .nav-contactenos ul{
+            flex-direction: row;
+            
+            margin-top:50px;
+              
+             }
+
+
+}
+
+/*Ubicación*/
+.container-ubicacion{
+display:flex;
+
+flex-direction: row;
+justify-content: space-between;
+       
+}
+.ubi2{
+margin-right: 80px;
+}
+.container-ubicacion iframe{
+width: 600px;
+height: 350px;
+border: 1dp solid #707070;
+border-radius: 40px;
+opacity: 1;
+}
+
+.container-ubicacion-text{
+color:white;
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+text-transform: uppercase;
+opacity: 1;
+margin-bottom: 30px;
+margin-top:30px;
+}
+.container-ubicacion-text-2{
+margin-left: 20px;
+}
+.container-ubicacion-text-p{
+font-size: 14px;
+}
+.container-ubi{
+margin-top:50px;
+}
+     
+    
+/*mediaquerys ubicacion*/
+ @media screen and (min-width: 320px) and (max-width: 576px){
+    .card-group-three-item-one-message h1{
+font-size: 40px;
+
+    }
+    .container-ubicacion{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+               
+        }
+        .container-ubicacion iframe{
+        width: 300px;
+        height: 250px;
+        border: 1dp solid #707070;
+        border-radius: 40px;
+        opacity: 1;
+        margin-left: 30px;
+        margin-top: 20px;
+        }
+        
+        .container-ubicacion-text{
+        color:white;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-transform: uppercase;
+        opacity: 1;
+        margin-top:30px
+        }
+        .container-ubicacion-text-2{
+        margin-left: 10px;
+        }
+        .container-ubicacion-text-p{
+        font-size: 12px;
+        }
+        .container-ubi{
+        margin-top:50px;
+        }    
+
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .card-group-three-item-one-message h1{
+        font-size: 50px;
+        
+            }
+    .container-ubicacion{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+               
+        }
+        .container-ubicacion iframe{
+        width: 500px;
+        height: 250px;
+        border: 1dp solid #707070;
+        border-radius: 40px;
+        opacity: 1;
+        margin-left: 30px;
+        margin-top: 20px;
+        }
+        
+        .container-ubicacion-text{
+        color:white;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-transform: uppercase;
+        opacity: 1;
+        margin-top:30px
+        }
+        .container-ubicacion-text-2{
+        margin-left: 10px;
+        }
+        .container-ubicacion-text-p{
+        font-size: 12px;
+        }
+        .container-ubi{
+        margin-top:50px;
+        }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .card-group-three-item-one-message h1{
+        font-size: 70px;
+        
+            }
+    .container-ubicacion{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+               
+        }
+
+        .ubi2{
+            margin-left: 90px;
+        }
+        .container-ubicacion iframe{
+        width: 400px;
+        height: 250px;
+        border: 1dp solid #707070;
+        border-radius: 40px;
+        opacity: 1;
+        margin-left: 30px;
+        margin-top: 20px;
+        }
+        
+        .container-ubicacion-text{
+        color:white;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-transform: uppercase;
+        opacity: 1;
+        margin-top:30px
+        }
+        .container-ubicacion-text-2{
+        margin-left: 10px;
+        }
+        .container-ubicacion-text-p{
+        font-size: 12px;
+        }
+        .container-ubi{
+        margin-top:50px;
+        }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1300px){
+    .card-group-three-item-one-message h1{
+        font-size: 90px;
+        
+            }
+    .container-ubicacion{
+        display:flex;
+        
+        flex-direction: row;
+        justify-content: space-between;
+               
+        }
+        .ubi2{
+        margin-right: 80px;
+        }
+        .container-ubicacion iframe{
+        width: 450px;
+        height: 350px;
+        border: 1dp solid #707070;
+        border-radius: 40px;
+        opacity: 1;
+        }
+        
+        .container-ubicacion-text{
+        color:white;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-transform: uppercase;
+        opacity: 1;
+        margin-bottom: 30px;
+        margin-top:30px;
+        }
+        .container-ubicacion-text-2{
+        margin-left: 20px;
+        }
+        .container-ubicacion-text-p{
+        font-size: 14px;
+        }
+        .container-ubi{
+        margin-top:50px;
+        }
+ 
+
+}
+
+  
+ /*telefonos*/
+.container-telefonos{
+    margin-top:50px;
+    margin-bottom: 100px;
+}
+
+ 
+/*redes sociales*/
+.card-social-group{
+display: flex;
+flex-direction: row;
+  justify-content: center;
+  
+
+}
+ .img-social{
+width: 150px;
+height: 60px;
+margin: 30px;
+
+      }
+.container-redes{
+margin-top:40px;
+}
+
+/*mediaquery redes sociales*/
+
+@media screen and (min-width: 320px) and (max-width: 479px){
+.card-social-group{
+display: flex;
+flex-direction: row;
+
+}
+.img-social{
+width: 70px;
+height: 60px;
+
+}
+}
+  
+@media screen and (min-width: 480px) and (max-width: 599px){
+.card-social-group{
+display: flex;
+flex-direction: row;
+}
+.img-social{
+width: 100px;
+height: 60px;
+
+}
+}
+
+/*mensajes*/
+.card-item-message-1{
+background-image: url(../img/Recuadritriangulos.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+border-radius: 0em 2em 2em 0em;
+width: 30%;
+}
+ .footer{
+     margin-top: 30px;
+ }
