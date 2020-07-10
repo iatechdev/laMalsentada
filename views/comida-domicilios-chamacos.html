@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Malsentada</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/style_menu.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="body" id=distorsion>
+
+
+  <div class="container-o" id="distorsion">
+   
+    <nav>
+      <div class="burger" id="burger">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+      </div>
+      <div class="perfil_person">
+        <a href=""><img src="./img/open-person.svg" alt=""></a>
+      </div>
+      <ul class="nav-links">
+        <li class="list_back"><a href="#menu" class="font-hn font-size-16 font-weight-400">Menú</a></li>
+        <li class="list_back"> <a href="./comida-domicilios-picotear.html" class="font-hn font-size-16 font-weight-400">Domicilios</a></li>
+        <li class="list_back"><a href="#reservas" class="font-hn font-size-16 font-weight-400">Reservas</a></li>
+      </ul>
+      <div class="logo">
+        <a href="index.html"><img src="../img/Logo_Horizontal.svg" alt="">
+      </div>
+      <ul class="nav-links">
+        <li class="list_back"><a href="../views/nosotros.html" class="font-hn font-size-16  font-weight-400">Nosotros</a>
+        </li>
+        <li class="list_back"> <a href="#blog" class="font-hn font-size-16 font-weight-400">Blog</a></li>
+        <li class="list_back"> <a href="../views/contactenos.html" class="font-hn  font-size-16 font-weight-400">Contáctenos</a></li>
+        <div class="nav-redes-sociales">
+          <a href=""><img src="./img/facebook_footer.svg" alt=""></a>
+          <a href=""><img src="./img/instagram_footer.svg" alt=""></a>
+          <a href=""><img src="./img/IconTripAdvisor.svg" alt=""></a>
+        </div>
+      </ul>
+      
+      <a href="javascript:transa()"><div class="shopping-basket-p" id="shopping">
+        <button class="btn_shopping_basket-p"><img src="../img/cesta_sb.svg" alt=""></button>
+        <span class="font-sp">1</span>
+      </div>
+    </a>
+    <a href="javascript:transaclose()"><div class="shopping-basket-p-open" id="shopping-open">
+      <button class="btn_shopping_basket-p-open"><img src="../img/cesta_sb.svg" alt=""></button>
+      <span class="font-sp">1</span>
+    </div>
+  </a>
+    </nav>
+
+
+    <div class="container_one" id="">
+      <div class="carousel">
+        <div class="slider">
+          <section>
+            <img src="../img/comida_one_nav.png" width="95%" alt="">
+          </section>
+          <section>
+            <img src="../img/comida_two_nav.png" width="95%" alt="">
+          </section>
+          <section>
+            <img src="../img/comida_three_nav.png" width="95%" alt="">
+          </section>
+        </div>
+        <div class="controls_menu">
+          <ul>
+            <li class="selected"></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container_two_menu" id="">
+      <ul class="container_two_menu_option">
+        <li class="nav_icon"><a href=""><img src="../img/IconoCubierto.svg" 
+          alt=""></a></li>
+        <li><a href="../views/comida-domicilios-picotear.html" class="font-ys font-size-80 text_shadow">Comida</a></li>
+        <li><a href="bebidas-domicilios.html" class="font-ys font-size-80">Bebidas y Chupe</a></li>
+        <li><a href="postres-domicilios.html" class="font-ys font-size-80">Postres</a></li>
+      </ul>
+      <div class="container_two_menu_one">
+        <ul class="container_two_menu_one_items">
+          <li><a href="./comida-domicilios-picotear.html" class="font-dw font-black-menu font-size-38 font-weight-400 letter-spacing-menu">Para
+              Picotear</a></li>
+          <li><a href="./comida-domicilios-tacos.html" class="font-dw font-black-menu font-size-38 font-weight-400 letter-spacing-menu">tacos</a>
+          </li>
+          <li><a href="./comida-domicilios-ensaladas.html" class="font-dw font-black-menu font-size-38 font-weight-400 letter-spacing-menu">Ensaladas</a>
+          </li>
+          <li><a href="./comidas-domicilios-platosf.html" class="font-dw font-black-menu font-size-38 font-weight-400 letter-spacing-menu">Platos
+              Fuertes</a></li>
+          <li><a href="./comida-domicilios-chamacos.html" class="font-dw  font-size-38 font-weight-400 letter-spacing-menu" style="color: #EB9900;">Para
+              chamacos</a></li>
+        </ul>
+  <div class="carrito-compras" id="carrito">
+     
+     <div class="tittle-carrito font-sp">
+       <h1 class="font-sp">TU CANASTA</h1>
+     </div>
+     <div class="carrito-font" >
+       <div class="carrito-group1">
+        <div class="container-carrito">
+        <div class="container-carrito-one font-sp">
+        <h3 class="font-sp">TOSTADA DE CEVICHE DE PULPO</h3>
+        <div class="container-incr"> 
+          <button class="decre-button" id="decrease" onclick="decreaseValue()">-</button>
+          <input class="input-inc" type="text" id="number" placeholder="1"
+            min="0">
+          <button class="increment-button" id="increase" onclick="increaseValue()">+</button>
+        </div>
+
+        </div>
+
+            </div>
+            <div class="container-carrito-two font-sp">
+              <h3 class="font-sp"> Suave sesgo de pulpo mexicano al sartén, acevichado con vegetales sobre tostada de elote.</h3>
+              <p>Eliminar</p>
+              </div>
+              <div class="container-carrito-three">
+                <p>Listo para comer</p>
+                <p>$22.000</p>
+                </div>
+            </div>
+            <div class="carrito-group2">
+              <div class="container-carrito">
+              <div class="container-carrito-one font-sp">
+              <h3 class="font-sp">TACOS AL PASTOR</h3>
+              <div class="container-incr"> 
+                <button class="decre-button" id="decrease" onclick="decreaseValue()">-</button>
+                <input class="input-inc" type="text" id="number" placeholder="1"
+                  min="0">
+                <button class="increment-button" id="increase" onclick="increaseValue()">+</button>
+              </div>
+      
+              </div>
+      
+                  </div>
+                  <div class="container-carrito-two font-sp">
+                    <h3 class="font-sp">Mixta de cerdo guisado en achiote,acompañado de cebolla,cilantro y piña</h3>
+                    <p>Eliminar</p>
+                    </div>
+                    <div class="container-carrito-three">
+                      <p>2 tacos -para preparar en casa</p>
+                      <p>$15.000</p>
+                      </div>
+                  </div>
+
+                        <div class="button-add container-end-carrito" style="margin-top: 20px;">
+                          <button  type="button" style="margin-bottom: 10px;">Agregar platos</button>
+                        </div> 
+
+                        <div class="container-carrito-sub">
+                          <p>Sub total</p>
+                          <p>$33.000</p>
+                        </div>
+                            
+            
+            </div>
+            <div class="button-pedido">
+              <button  class="">Hacer pedido</button>
+
+            </div>
+
+              </div>
+            
+
+              
+             
+
+        <div class="container_two_menu_items" id="">
+
+         <div class="container-card-food-one-chamacos">
+            <div class="container-card-food-two-chamacos">
+                <div class="card-food-text-chamacos">
+               <h3 class="font-sp">Bombones de pollo</h3>
+               <p class="font-sp">Pollo empanizado bañado en salsa de queso, con papas cascos,salsa miel mostaza y salsa chipotle dulce.</p>
+            </div>
+               <div class="container-price-chamacos font-sp-chamacos">
+                <div class="carrito-margin-chamacos">
+                   <p>$22.000</p>
+                </div>
+                   <div class="carrito-chamacos">
+                   
+                    <img src="../img/Icon awesome-shopping-basket-yellow-1.png" alt="">
+                    <a href="javascript:abrir()" class="font-sp">AGREGAR</a>
+                    
+    
+                   
+                   </div>
+                   
+               </div>
+            
+            </div>
+            <div class="container-card-food-two-chamacos">
+                <div class="card-food-text-chamacos">
+               <h3 class="font-sp">Flautas de queso y res</h3>
+               <p class="font-sp">3 Flautas: Tortilla de harina rellena de queso derretido y alambre de res, crema, lechuga y salsa roja dulce.</p>
+            </div>
+               <div class="container-price-chamacos font-sp-chamacos">
+                <div class="carrito-margin-chamacos">
+                   <p>$22.000</p>
+                </div>
+                   <div class="carrito-chamacos">
+                   
+                    <img src="../img/Icon awesome-shopping-basket-yellow-1.png" alt="">
+                    <a href="javascript:abrir()" class="font-sp">AGREGAR</a>
+                    
+    
+                   
+                   </div>
+                   
+               </div>
+            
+            </div>
+ 
+
+        </div>
+  
+      
+      
+        </div>
+      </div>
+
+    </div>
+</div>
+
+
+      </div>
+      <footer>
+        <div class="footer_one">
+          <div class="footer_one_img">
+            <img src="../img/logo_footer.svg" alt="">
+          </div>
+    
+          <div class="footer_one_adress">
+            <div class="footer_one_adress_item">
+              <p class="font-size-14 font-weight-600 font-sp">El poblado</p>
+              <p class="font-size-14 font-weight-400 font-sp">Carrera 36#10b-27</p>
+              <p class="font-size-14 font-weight-400 font-sp">Medellín</p>
+            </div>
+    
+            <div class="footer_one_adress_item">
+              <p class="font-size-14 font-weight-600 font-sp">Túnel de Oriente</p>
+              <p class="font-size-14 font-weight-400 font-sp">Sajonia</p>
+              <p class="font-size-14 font-weight-400 font-sp">Rionegro</p>
+            </div>
+    
+          </div>
+    
+          <div class="footer_one_email">
+            <div class="footer_one_email_item">
+              <p class="font-size-14 font-weight-400 font-sp">info@lamalsentada.com</p>
+              <p class="font-size-14 font-weight-400 font-sp">569 043 0236</p>
+            </div>
+          </div>
+    
+          <div class="footer_one_calendar">
+            <p class="font-size-14 font-weight-600 font-sp">Horarios domicilios</p>
+            <table>
+              <tr>
+                <td class="font-size-14 font-weight-400 font-sp">Lunes a Jueves</td>
+                <td class="font-size-14 font-weight-400 font-sp td_right">12:00m a 7:30pm</td>
+              </tr>
+              <tr>
+                <td class="font-size-14 font-weight-400 font-sp">Viernes a Sabádo</td>
+                <td class="font-size-14 font-weight-400 font-sp td_right">12:00m a 7:30pm</td>
+              </tr>
+              <tr>
+                <td class="font-size-14 font-weight-400 font-sp">Domingo y Festivos</td>
+                <td class="font-size-14 font-weight-400 font-sp td_right">12:00m a 7:30pm</td>
+              </tr>
+            </table>
+          </div>
+          <div class="footer_one_reds">
+            <div class="footer_one_reds_icon">
+              <a href=""><img src="../img/facebook_footer.svg" alt=""></a>
+              <a href=""><img src="../img/instagram_footer.svg" alt=""></a>
+              <a href=""><img src="../img/IconTripAdvisor.svg" alt=""></a>
+            </div>
+    
+          </div>
+        </div>
+        <div class="footer_two">
+          <img src="../img/footer_img.svg" alt="">
+    
+        </div>
+      </footer>
+
+  </div>
+    <script src="../js/index.js"></script>
+    <div class="ventana" id="vent">
+      <div class="close-shop">
+        <a href="javascript:cerrar()"><img src="../img/cancelar.png" alt=""></a>
+      </div>
+      <div class="container-shopp font-size-20 font-sp">
+      <h1 class="font-sp">TOSTADA DE CEVICHE DE PULPO</h1>
+      <p>$22.000</p>
+      <div class="container-incr"> 
+        <button class="decre-button" id="decrease" onclick="decreaseValue()">-</button>
+        <input class="input-inc" type="text" id="number" placeholder="1"
+          min="0">
+        <button class="increment-button" id="increase" onclick="increaseValue()">+</button>
+      </div>
+    </div>
+
+    <div class="container-shopp-text  font-sp">
+      <p>
+        Suave sesgo de pulpo mexicano al sartén, acevichado con vegetales sobre tostada de elote.
+      </p>
+    </div>
+    <div class="container-shopp-options font-sp">
+   <input type="radio" name="option" value="a">Listo para comer
+   <div class="container-shopp-options-two">
+  <input type="radio" name="option" value="b">Para preparar en casa
+   
+  <p>
+    - $5.000
+  </p>
+</div>
+<div class="container-shopp-subtotal font-sp">
+<p>Subtotal</p>
+<p>$22.000</p>
+</div>
+<div class="button-add">
+  <button  type="button">Agregar</button>
+</div>
+
+
+    </div>
+     </div>
+</body>
+
+</html>

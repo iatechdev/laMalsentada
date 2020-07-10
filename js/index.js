@@ -92,3 +92,43 @@ function increaseValue() {
 
 
 
+//-------------- open window" -------------------------
+
+
+function abrir(){
+
+
+    document.getElementById("vent").style.display="block";
+    document.getElementById("distorsion").style.filter="blur(6px)";
+
+   
+}
+
+function cerrar(){
+
+
+    document.getElementById("vent").style.display="none";
+    document.getElementById("distorsion").style.filter="none";
+    
+
+}
+
+function transa(){
+ document.getElementById("shopping-open").style.display="block";
+ document.getElementById("shopping").style.display="none";
+ document.getElementById("carrito").style.display="block";
+
+}
+
+function transaclose(){
+    document.getElementById("shopping-open").style.display="none";
+    document.getElementById("shopping").style.display="block";
+    document.getElementById("carrito").style.display="none";
+   
+   }
+
+
+
+
+
+

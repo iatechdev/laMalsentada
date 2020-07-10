@@ -428,7 +428,6 @@ nav .shopping-basket span{
   margin-top: -3em;
   position: relative;
   padding: 1em ;
-  margin-bottom: -30px;
 }
 
 /* ------- CONTAINER TWO/CONTAINER TWO ONE ------- */
@@ -598,10 +597,6 @@ nav .shopping-basket span{
   margin-bottom: 8em;
 }
 
-.container_two_three_ubicacion{
-  margin-top: 8em;
-  margin-bottom: 8em;
-}
 .card-group-three{
   padding: 1em 3em;
 }
@@ -616,18 +611,6 @@ nav .shopping-basket span{
   border-radius: 2em 0em 0em 2em;
   width: 30%;
 }
-.card-group-three-item-one-message{
-  background-image: url(../img/Recuadritriangulos.png);
-  background-size: 100% 100%;
- 
-  border-radius: 0em 2em 2em 0em;
-  width: 30%;
-  margin-left:-8px;
-}
-.card-group-three-item-one-message h1{
-margin-top:50px;
-}
-
 
 
 
@@ -639,33 +622,15 @@ margin-top:50px;
   width: 70%;
 }
 
-.card-group-three-item-two-message{
-  background-color: #FFFFFF !important;
-  border-radius: 2em 0em 0em 2em;
-  padding: 2em;
-  opacity: 0.9;
-  width: 70%;
-}
-
-
 .card-group-three-item-two-one{
   display: flex;
   flex-wrap: wrap;
-}
-.card-group-three-item-two-one-message{
-  display: flex;
- flex-wrap: wrap;
 }
 
 .card-group-three-item-two-one-items{
   width: 50%;
   display: flex;
   align-items: center;
-  margin-top: 1em;
-}
-.card-group-three-item-two-one-items-message{
-  width: 40%;
-  display: flex;
   margin-top: 1em;
 }
 
@@ -713,29 +678,6 @@ margin-top:50px;
   font-weight: 400;
 
 }
-.card-group-three-item-two-one-items-message input{
-  border: 1px solid #F7F7F7;
-  padding: 0.5em;
-  border-radius: 10px;
-  background-color: #F7F7F7;
-  width: 70%;
-  font-size: 0.8em;
-  font-family: 'Source Sans Pro' !important;
-  margin-left: 40px;
-
-}
-.text-area{
-  border: 1px solid #F7F7F7;
-  padding: 0.5em;
-  border-radius: 10px;
-  background-color: #F7F7F7;
-width: 100%;
-  font-size: 0.8em;
-  font-family: 'Source Sans Pro' !important;
-display: flex;
-justify-content: center;
-margin-top:20px;
-}
 
 .card-group-three-item-two-one-items .btn-right{
   border-radius: 0px 10px 10px 0px;
@@ -743,14 +685,6 @@ margin-top:20px;
 }
 
 .card-group-three-item-two-one-items .btn-left{
-  border-radius: 10px 0px 0px 10px;
-} 
-.card-group-three-item-two-one-items-message .btn-right{
-  border-radius: 0px 10px 10px 0px;
-  
-}
-
-.card-group-three-item-two-one-items-message .btn-left{
   border-radius: 10px 0px 0px 10px;
 } 
 
@@ -768,14 +702,6 @@ margin-top:20px;
 }
 
 .card-group-three-item-two button.btn-reserva{
-  margin-top: 1em;
-  background-color: #E7A436 !important;
-  border-color: #E7A436;
-  border-radius: 1em 0em;
-  padding: 0.5em 0.7em;
-  margin-left: 37%;
-}
-.card-group-three-item-two-message button.btn-reserva{
   margin-top: 1em;
   background-color: #E7A436 !important;
   border-color: #E7A436;
@@ -807,6 +733,29 @@ margin-top:20px;
   width: 65%;
 }
 
+.card-group-three-item-two-one-items-message input{
+  border: 1px solid #F7F7F7;
+  padding: 0.5em;
+  border-radius: 10px;
+  background-color: #F7F7F7;
+  width: 70%;
+  font-size: 0.8em;
+  font-family: 'Source Sans Pro' !important;
+  margin-left: 40px;
+
+}
+.text-area{
+  border: 1px solid #F7F7F7;
+  padding: 0.5em;
+  border-radius: 10px;
+  background-color: #F7F7F7;
+width: 100%;
+  font-size: 0.8em;
+  font-family: 'Source Sans Pro' !important;
+display: flex;
+justify-content: center;
+margin-top:20px;
+}
 
 
 /*------------FOOTER--------------*/
@@ -1007,10 +956,7 @@ margin-top:20px;
 }
 
 
-.card-group-three-item-one h1{
-  font-size: 100px;
-  margin-top:20px;
-      }
+
 
 
 @media screen and (max-width: 768px) {
@@ -1203,10 +1149,6 @@ margin-top:20px;
 }
 
 .card-group-three-item-one h1{
-  font-size: 4em;
-  margin-top:50px;
-}
-.card-group-three-item-one-message h1{
   font-size: 4em;
 }
 
@@ -1633,10 +1575,6 @@ margin-top:20px;
 .card-group-three-item-one h1 {
   font-size: 3em;
 }
-.card-group-three-item-one-message h1 {
-  font-size: 3em;
-}
-
 
 .cestadeaji {
   position: absolute;
@@ -1658,9 +1596,9 @@ margin-top:20px;
   width: 65%;
 }
 
-.card-group-three-item-two-message {
+.card-group-three-item-two {
   background-color: #FFFFFF !important;
-  border-radius: 2em 0em 0em 2em;
+  border-radius: 0em 2em 2em 0em;
   padding: 0.5em;
   opacity: 0.9;
   width: 70%;
@@ -1740,7 +1678,73 @@ margin-top:20px;
   }
 }
 
-
-
   
+.card-group-three-item-one-message{
+  background-image: url(../img/Recuadritriangulos.png);
+  background-size: 100% 100%;
+ 
+  border-radius: 0em 2em 2em 0em;
+  width: 30%;
+  margin-left:-8px;
+}
+.card-group-three-item-one-message h1{
+margin-top:50px;
+}
+
+.card-group-three-item-two-message{
+  background-color: #FFFFFF !important;
+  border-radius: 2em 0em 0em 2em;
+  padding: 2em;
+  opacity: 0.9;
+  width: 70%;
+}
+
+.card-group-three-item-two-one-message{
+  display: flex;
+ flex-wrap: wrap;
+}
+.card-group-three-item-two-one-items-message{
+  width: 40%;
+  display: flex;
+  margin-top: 1em;
+}
+.card-group-three-item-two-one-items-message input{
+  border: 1px solid #F7F7F7;
+  padding: 0.5em;
+  border-radius: 10px;
+  background-color: #F7F7F7;
+  width: 70%;
+  font-size: 0.8em;
+  font-family: 'Source Sans Pro' !important;
+  margin-left: 40px;
+
+}
+
+.card-group-three-item-two-one-items-message .btn-right{
+  border-radius: 0px 10px 10px 0px;
   
+}
+
+.card-group-three-item-two-one-items-message .btn-left{
+  border-radius: 10px 0px 0px 10px;
+} 
+
+.card-group-three-item-two-message button.btn-reserva{
+  margin-top: 1em;
+  background-color: #E7A436 !important;
+  border-color: #E7A436;
+  border-radius: 1em 0em;
+  padding: 0.5em 0.7em;
+  margin-left: 37%;
+}
+
+.card-group-three-item-one-message h1{
+  font-size: 4em;
+}
+.card-group-three-item-one-message h1 {
+  font-size: 3em;
+}
+
+.card-group-three-item-two h2{
+  font-size: 1.2em !important;
+}
