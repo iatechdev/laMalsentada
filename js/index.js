@@ -104,6 +104,28 @@ function abrir(){
    
 }
 
+function abrirlog(){
+
+
+    document.getElementById("log").style.display="block";
+    document.getElementById("logreg").style.display="none";
+    document.getElementById("distorsion").style.filter="blur(6px)";
+
+}
+
+function abrirlogreg(){
+
+
+    document.getElementById("log").style.display="none";
+    document.getElementById("logreg").style.display="block";
+    document.getElementById("distorsion").style.filter="blur(6px)";
+   
+    document.getElementById("containerreg").style.backgroundColor="#FFFFF";
+    
+   
+}
+
+
 function cerrar(){
 
 
@@ -112,6 +134,26 @@ function cerrar(){
     
 
 }
+
+function cerrarlog(){
+
+
+    document.getElementById("log").style.display="none";
+    document.getElementById("distorsion").style.filter="none";
+    
+
+}
+
+
+function cerrarlogreg(){
+
+
+    document.getElementById("logreg").style.display="none";
+    document.getElementById("distorsion").style.filter="none";
+    
+
+}
+
 
 function transa(){
  document.getElementById("shopping-open").style.display="block";
@@ -126,6 +168,13 @@ function transaclose(){
     document.getElementById("carrito").style.display="none";
    
    }
+
+
+function cobertura(){
+    document.getElementById("cobertura").style.display="block";    
+
+    document.getElementById("distorsion").style.filter="blur(6px)";
+}
 
 
 
