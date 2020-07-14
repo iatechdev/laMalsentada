@@ -177,6 +177,10 @@ function cobertura(){
 }
 
 
+function cerrarcobertura(){
+    document.getElementById("cobertura").style.display="none";    
+    document.getElementById("distorsion").style.filter="";
+}
 
 
 
